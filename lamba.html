@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamp off / on</title>
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: poppins;
+        }
+        a{
+            background-color: green;
+            color: #fff;
+            text-decoration: none;
+            font-family: Poppins;
+            font-size: 20px;
+            padding: 10px 40px;
+            margin: 30px;
+        }
+        h1{
+            text-align: center;
+            font-family: Poppins;
+            margin-bottom: 30px;
+        }
+        p{
+            margin: 30px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <center>
+
+        <br> <br>
+    <h1> My Javascript Project </h1>
+    <p>When you click the open button is the lamp on. When you click the close button is the lamp off.</p>
+    <a onclick="document.getElementById('lamba').src='lamba_acik.jpg' " href="#lamba">Open</a>
+    <a onclick="document.getElementById('lamba').src = 'lamba_kapali.jpg' " href="#lamba">Close</a>
+
+        <br> <br> <br> <br>
+
+    <img id="lamba" src="lamba_kapali.jpg">
+
+    </center>
+
+</body>
+</html>
